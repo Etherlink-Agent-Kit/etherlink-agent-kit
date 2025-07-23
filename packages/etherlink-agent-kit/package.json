@@ -1,0 +1,32 @@
+{
+  "name": "etherlink-agent-kit",
+  "version": "0.1.0",
+  "description": "Core SDK for interacting with the Etherlink blockchain (testnet and mainnet).",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "viem": "^2.10.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0",
+    "vite-plugin-dts": "^3.9.1"
+  }
+} 
