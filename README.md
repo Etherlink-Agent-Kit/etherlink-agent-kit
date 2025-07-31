@@ -174,21 +174,8 @@ ETHERLINK_PRIVATE_KEY=0x...
 ETHERLINK_NETWORK=mainnet
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
 
 ## License
 
 MIT License - see LICENSE file for details.
 
-## Support
-
-For support and questions:
-- Create an issue on GitHub
-- Check the documentation
-- Join our community discussions 
